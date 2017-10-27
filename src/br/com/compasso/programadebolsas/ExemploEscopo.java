@@ -14,7 +14,7 @@ public class ExemploEscopo extends HttpServlet {
     public ExemploEscopo() {
         super();
     }
-
+//Comentario 2 Djéssica
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	   request.setAttribute("valor", "Valor setado no Escopo de Request");
 	   request.getSession().setAttribute("valor", "Valor setado no Escopo de Session");
