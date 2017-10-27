@@ -18,7 +18,7 @@ public class ExemploInstancia extends HttpServlet {
     public ExemploInstancia() {
         super();
     }
-
+//Demanda Jariano
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		contador++; 
 
