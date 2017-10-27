@@ -27,7 +27,7 @@ public class VerificaCartaoDeCredito extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		// Demanda Patrick 
 		Cartao cartaoUsuario = new Cartao();
 		cartaoUsuario.setNroCartao(null != request.getParameter("nroCartao") ? request.getParameter("nroCartao") : null);
 		cartaoUsuario.setDtValidade(null != request.getParameter("dtValidade") ? request.getParameter("dtValidade") : null);
