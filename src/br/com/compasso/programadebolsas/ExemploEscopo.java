@@ -23,7 +23,6 @@ public class ExemploEscopo extends HttpServlet {
 	   Object valorRequest = request.getAttribute("valor");
 	   Object valorSession = request.getSession().getAttribute("valor");
 	   Object valorApplication = getServletContext().getAttribute("valor");
-//	   Object valorApplication = getServletContext().getAttribute("valor");
 		
 	   response.getWriter().append("Request: ").append(valorRequest.toString());
 	   response.getWriter().append("\nSession: ").append(valorSession.toString());
