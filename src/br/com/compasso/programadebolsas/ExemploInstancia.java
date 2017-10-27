@@ -30,7 +30,7 @@ public class ExemploInstancia extends HttpServlet {
 		out.println("</body>");
 		out.println("</html>");
 	}
-
+//Demanda Djéssica
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 	}
