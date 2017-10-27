@@ -7,17 +7,27 @@ public class Cartao {
 	private String bandeira;
 	private String codigoVerificador;
 	private String nomeTitular;
+	private String cpfTitular;
 	private String teste;
 	
-	public Cartao(String nroCartao, String dtValidade, String bandeira, String codigoVerificador, String nomeTitular) {
+	public Cartao(String nroCartao, String dtValidade, String bandeira, String codigoVerificador, String nomeTitular, String cpfTitular) {
 		super();
 		this.nroCartao = nroCartao;
 		this.dtValidade = dtValidade;
 		this.bandeira = bandeira;
 		this.codigoVerificador = codigoVerificador;
+		this.cpfTitular = cpfTitular;
 		this.nomeTitular = nomeTitular;
 	}
 	
+	public String getCpfTitular() {
+		return cpfTitular;
+	}
+
+	public void setCpfTitular(String cpfTitular) {
+		this.cpfTitular = cpfTitular;
+	}
+
 	public Cartao() {
 		super();
 	}
