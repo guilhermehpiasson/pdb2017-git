@@ -41,7 +41,7 @@ public class Parametros extends HttpServlet {
 	public void destroy() {
 		super.destroy();
 	}
-
+//comentario Djéssica
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 //		response.setContentType("text/html");
