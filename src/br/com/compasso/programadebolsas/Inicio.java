@@ -15,6 +15,7 @@ public class Inicio extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     public Inicio() {
+    	//Ariel
     }
 
 	public void init(ServletConfig config) throws ServletException {
