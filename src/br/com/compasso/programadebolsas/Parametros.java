@@ -37,6 +37,7 @@ public class Parametros extends HttpServlet {
 //    	this.password = config.getInitParameter("password");
     }
 	
+    //Comentario Diego
 	@Override
 	public void destroy() {
 		super.destroy();
