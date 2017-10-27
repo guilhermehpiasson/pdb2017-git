@@ -1,4 +1,3 @@
-//comentário rafael
 package br.com.compasso.programadebolsas;
 
 import java.io.IOException;
@@ -7,7 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-//comentário qualquer
+
 @WebServlet("/exemploEscopo")
 public class ExemploEscopo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -28,6 +27,7 @@ public class ExemploEscopo extends HttpServlet {
 	   response.getWriter().append("Request: ").append(valorRequest.toString());
 	   response.getWriter().append("\nSession: ").append(valorSession.toString());
 	   response.getWriter().append("\nContext: ").append(valorApplication.toString());
+	   // comentario demanda Lucas
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
